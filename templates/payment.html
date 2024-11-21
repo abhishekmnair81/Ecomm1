@@ -6,7 +6,7 @@
 <h2 class="text-center mb-6 text-info">Payment</h2>
 <div class="container d-flex justify-content-center mt-5">
     <div class="card p-4 text-center bg-light" style="width: 800px;">
-
+        <img src="{% static 'images/raz.jpg' %}" height="180px" width="100%" class="logo"><br>
         <form action="{% url 'cart:status' name %}" method="POST">
             <script
                src="https://checkout.razorpay.com/v1/checkout.js"
